@@ -184,10 +184,9 @@ class CAR(Platforms):
     CarSpecs(mass=2860. * CV.LB_TO_KG, wheelbase=2.7, steerRatio=18.27, tireStiffnessFactor=0.444),
     dbc_dict('toyota_new_mc_pt_generated', 'toyota_adas'),
   )
-  TOYOTA_NOA = PlatformConfig(
+  TOYOTA_NOA = ToyotaTSS2PlatformConfig(
     [ToyotaCarDocs("Toyota NOA HEV 2014-21")],
     CarSpecs(mass=1836.0 , wheelbase=2.700000047683716 , steerRatio=13.0 , tireStiffnessFactor= 1.0),
-    dbc_dict('toyota_nodsu_pt_generated', 'toyota_adas'),
   )
 
   # LSS2 Lexus UX Hybrid is same as a TSS2 Corolla Hybrid

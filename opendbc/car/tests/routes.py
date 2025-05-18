@@ -28,7 +28,7 @@ non_tested_cars = [
   SUBARU.SUBARU_FORESTER_HYBRID,
   TESLA.TESLA_MODEL_3,
   TESLA.TESLA_MODEL_Y,
-  TOYOTA.NOA, # no test data
+  TOYOTA.TOYOTA_NOA, # no test data
 ]
 
 
